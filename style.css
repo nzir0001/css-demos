@@ -1,0 +1,41 @@
+/* This is my CSS file */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: brown;
+}
+
+.intro {
+    color: darkgreen;
+
+}
+
+#my-image {
+    box-shadow: 5px 10px #888888;
+  }
+ul li:nth-child(odd) {
+    background: darkmagenta;
+}
+
+nav ul li,
+nav ul li:nth-child(odd) {
+    background: darkturquoise;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background: #999
+}
+
+nav ul li a:hover {
+    background: red;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    text-decoration: none;
+}
